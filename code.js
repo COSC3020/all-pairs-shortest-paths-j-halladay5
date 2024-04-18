@@ -14,7 +14,7 @@ function allPairsShortestPath(graph)
         }
     }
     
-    for(var k = 1; k< dist.length; k++)
+    for(var k = 0; k< dist.length; k++)
     {
         for(var i = 0; i < dist.length; i++)
         {
