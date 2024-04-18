@@ -29,3 +29,6 @@ the function and run automatically when you commit through a GitHub action.
 
 What is the worst-case time complexity ($\Theta$) of the algorithm? Add your
 answer, including your reasoning, to this markdown file.
+
+The worst case time complexity is $\ Theta(V^3)$. The two nested for loops in the beginning that initialize the dist matrix take $\ V^2$ time because each will iterate V times. The three nested loop that gets the 
+shortest path between pairs using an intermediate node each iterate V times for each vertex. This will take $\ V^3$ time. So $\ V^2 + V^3 \in \Theta(V^3)$.
